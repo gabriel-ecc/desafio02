@@ -13,7 +13,29 @@
     justify-content: center;
     align-items: center;
     display: grid;
-    
+  }
+
+  section {
+    display: flex; 
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 25vh;
+  }
+
+  section > p{
+    text-align: justify;
+    width: 30vh;
+    overflow-wrap: break-word; 
+    font-family: Calibri, sans-serif;
+    font-size: 2vh;
+    margin-left: 5vh;
+    margin-right: 1vh;
+  }
+
+  img {
+    max-width: 30vh; /* La imagen nunca será más ancha que su contenedor */
+    height: auto; /* El alto se ajusta automáticamente para mantener las proporciones */
+    margin-left: 1vh;
   }
 
   h1{
@@ -26,26 +48,28 @@
     text-align: center;
     font-family: Calibri, sans-serif;
     font-size: 2vh;
-  }
-
-  
+  }  
 
   .item1{
-    height: 22vh;
     background-color: rgba(0, 128, 0, 0.5);
   }
 
   .item2{
-    height: 22vh;
     background-color: rgba(9, 0, 128, 0.5);
   }
 
   .item3{
-    height: 22vh;
     background-color: rgba(128, 115, 0, 0.5);
   }
 
   footer{
-    height: 14vh;
+    height: 5vh;
     background-color: rgba(128, 15, 0, 0.5);
+  }
+
+  footer > p {
+    display: grid;
+    text-align: center;
+    font-family: Calibri, sans-serif;
+    font-size: 2vh;
   }
