@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  header{
+    background-image: url(../imgs/plane.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    
+  }
+
+  h1{
+    text-align: center;
+    font-family: Calibri, sans-serif;
+    font-size: 5vh;
+  }
+
+  header > p{
+    text-align: center;
+    font-family: Calibri, sans-serif;
+    font-size: 2vh;
+  }
+
+  
+
+  .item1{
+    height: 22vh;
+    background-color: rgba(0, 128, 0, 0.5);
+  }
+
+  .item2{
+    height: 22vh;
+    background-color: rgba(9, 0, 128, 0.5);
+  }
+
+  .item3{
+    height: 22vh;
+    background-color: rgba(128, 115, 0, 0.5);
+  }
+
+  footer{
+    height: 14vh;
+    background-color: rgba(128, 15, 0, 0.5);
+  }
